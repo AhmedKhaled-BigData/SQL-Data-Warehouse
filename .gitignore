@@ -1,0 +1,20 @@
+# Local/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.secret
+
+# SQL Server local files
+*.mdf
+*.ndf
+*.ldf
+
+# OS files
+Thumbs.db
+.DS_Store
